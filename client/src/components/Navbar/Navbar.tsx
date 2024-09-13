@@ -80,7 +80,7 @@ const Navbar = () => {
                   </NavigationMenuLink>
                 </li>
                 <ListMenu href={"/"} title={"test"}>
-                  test
+                  test  test  test
                 </ListMenu>
               </ul>
             </NavigationMenuContent>
