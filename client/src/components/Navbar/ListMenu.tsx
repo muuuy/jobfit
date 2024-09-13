@@ -4,7 +4,7 @@ import { ListMenuData } from "./NavbarInterface";
 
 const ListMenu: React.FC<ListMenuData> = ({ href, title, children }) => {
   return (
-    <li>
+    <li className="border-2 border-black">
       <NavigationMenuLink asChild>
         <Link
           to={href}
