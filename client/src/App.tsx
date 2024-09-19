@@ -7,7 +7,7 @@ import { Home } from "./components/Home/Home";
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex flex-col min-h-screen font-mono">
+      <div className="flex flex-col min-h-screen font-sans">
         <Navbar />
         <Button className="">TEST</Button>
 
